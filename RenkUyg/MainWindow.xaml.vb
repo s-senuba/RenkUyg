@@ -22,6 +22,14 @@ Class MainWindow
 
         ' Renk göstergesini güncelle
         rectRenkGoster.Fill = New SolidColorBrush(_secilenRenk)
+
+        ' Zıt renk hesapla ve göster
+        Dim zitRenk As Color = ZitRenkHesapla(_secilenRenk)
+        rectZitRenk.Fill = New SolidColorBrush(zitRenk)
+
+        ' Uyumlu renk hesapla ve göster
+        Dim uyumluRenk As Color = UyumluRenkHesapla(_secilenRenk)
+        rectUyumluRenk.Fill = New SolidColorBrush(uyumluRenk)
     End Sub
 
     ' Ortalama rengi hesaplamak için yardımcı fonksiyon
@@ -68,6 +76,20 @@ Class MainWindow
         Dim ortalamaMavi As Byte = CByte(toplamMavi / pikselSayisi)
 
         Return Color.FromRgb(ortalamaKirmizi, ortalamaYesil, ortalamaMavi)
+    End Function
+
+    ' Zıt rengi hesaplamak için yardımcı fonksiyon
+    Private Function ZitRenkHesapla(r As Color) As Color
+        Return Color.FromRgb(255 - r.R, 255 - r.G, 255 - r.B)
+    End Function
+
+    ' Uyumlu rengi hesaplamak için yardımcı fonksiyon (örnek olarak daha açık bir renk)
+    Private Function UyumluRenkHesapla(r As Color) As Color
+        ' Daha açık bir ton (doğrudan RGB değerini artırıyoruz)
+        Dim yeniR As Byte = CByte(Math.Min(255, r.R + 50))
+        Dim yeniG As Byte = CByte(Math.Min(255, r.G + 50))
+        Dim yeniB As Byte = CByte(Math.Min(255, r.B + 50))
+        Return Color.FromRgb(yeniR, yeniG, yeniB)
     End Function
 
     ' Resim Yükle Butonuna tıklanınca çalışacak metod
