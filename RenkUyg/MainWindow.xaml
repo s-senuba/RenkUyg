@@ -1,0 +1,22 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RenkUyg" Height="450" Width="800">
+
+    <Grid Margin="10">
+        <!-- Fotoğraf yüklemek için buton -->
+        <Button Name="BtnResimYukle" Content="Resim Yükle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="BtnResimYukle_Click"/>
+
+        <!-- Renk gösterme kısmı -->
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0">
+            <TextBlock Text="HEX Kodu" Margin="5"/>
+            <TextBox Name="txtHexKodu" Width="200" Margin="5" IsReadOnly="True" />
+
+            <TextBlock Text="RGB Kodu" Margin="5"/>
+            <TextBox Name="txtRgbKodu" Width="200" Margin="5" IsReadOnly="True" />
+
+            <TextBlock Text="Seçilen Renk" Margin="5"/>
+            <Rectangle Name="rectRenkGoster" Width="200" Height="50" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

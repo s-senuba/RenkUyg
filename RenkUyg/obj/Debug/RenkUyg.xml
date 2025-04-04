@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RenkUyg
+</name>
+</assembly>
+<members>
+<member name="T:RenkUyg.My.MyWpfExtension">
+ <summary>
+ WPF için Benim Ad Uzayım'daki uygun olan özellikleri tanımlamak için kullanılan modül
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:RenkUyg.My.MyWpfExtension.Application">
+ <summary>
+ Çalışan uygulamanın uygulama nesnesini döndürür
+ </summary>
+</member>
+<member name="P:RenkUyg.My.MyWpfExtension.Computer">
+ <summary>
+ Ana bilgisayar hakkında bilgi döndürür.
+ </summary>
+</member>
+<member name="P:RenkUyg.My.MyWpfExtension.User">
+ <summary>
+ Geçerli kullanıcı için bilgi döndürür.  Uygulamayı geçerli 
+ Windows kullanıcı kimlik bilgileri ile çalıştırmak istiyorsanız, My.User.InitializeWithWindowsUser() çağırın.
+ </summary>
+</member>
+<member name="P:RenkUyg.My.MyWpfExtension.Log">
+ <summary>
+ Uygulama günlüğünü döndürür. Dinleyiciler, uygulamanın yapılandırma dosyası tarafından yapılandırılabilir.
+ </summary>
+</member>
+<member name="P:RenkUyg.My.MyWpfExtension.Windows">
+ <summary>
+ Projede tanımlanan Windows koleksiyonunu döndürür.
+ </summary>
+</member>
+<member name="T:RenkUyg.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RenkUyg.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RenkUyg.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:RenkUyg.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:RenkUyg.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:RenkUyg.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:RenkUyg.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:RenkUyg.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

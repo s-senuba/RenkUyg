@@ -1,0 +1,16 @@
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.vbproj.AssemblyReference.cache
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\MainWindow.baml
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\MainWindow.g.vb
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\Application.g.vb
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg_MarkupCompile.cache
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.g.resources
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.Resources.resources
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.vbproj.GenerateResource.cache
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.vbproj.CoreCompileInputs.cache
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\bin\Debug\RenkUyg.exe.config
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\bin\Debug\RenkUyg.exe
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\bin\Debug\RenkUyg.pdb
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\bin\Debug\RenkUyg.xml
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.exe
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.xml
+C:\Users\Semanur\Desktop\RenkUyg\RenkUyg\obj\Debug\RenkUyg.pdb
